@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name='author' content='Quentin Sar, Netinq'>
+    <meta name='owner' content='Quentin Sar'>
+    <meta name='subject' content="Quentin Sar">
+
+    <meta name='identifier-URL' content='sarquentin.fr'>
+    <meta name="description" content="Travail EPSI B1 pour l'intégration d'une maquette.">
+    <meta name='reply-to' content='contact@sarquentin.fr'>
+
+    <meta name='language' content='FR'>
+    <meta name='target' content='all'>
+    <meta name='theme-color' content='#FAEC71'>
+
+    <link rel='shortcut icon' type='image/png' href='./assets/img/logo.png'>
+    <link rel="apple-touch-icon" href="./assets/img/logo.png" />
+
+    <!-- Twitter Card meta -->
+    <meta name='twitter:card' content='summary'>
+    <meta name="twitter:site" content="@Netinq" />
+    <meta name="twitter:title" content="EPSI TP" />
+    <meta name='twitter:url' content='https://sarquentin.fr' />
+    <meta name='twitter:domain' content='sarquentin.fr' />
+    <meta name="twitter:description" content="Travail EPSI B1 pour l'intégration d'une maquette." />
+    <meta name="twitter:image" content="./assets/img/meta.jpg" />
+
+    <!-- Open Graph meta -->
+    <meta property='og:title' content=' - @yield('title') @else EPSI TP @endif' />
+    <meta property="og:description" content="Travail EPSI B1 pour l'intégration d'une maquette." />
+    <meta property="og:image" content="./assets/img/meta.jpg" />
+    <meta property='og:type' content='website' />
+    <meta property='og:url' content='https://sarquentin.fr' />
+    <meta property='og:site_name' content='EPSI TP' />
+    <meta property='author' content='Quentin Sar' />
+    <meta property='profile:gender' content='male' />
+    <meta property="og:locale" content="fr_FR" />
+
+    <!-- IOS meta -->
+    <meta name="apple-mobile-web-app-title" content="EPSI TP">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <title>EPSI TP</title>
+
+    <!-- STATIC Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/master.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/index.css">
+
+    <!-- STATIC Scripts -->
+    <!-- <script src="js/app.js"></script> -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+
+    <title>TP EPSI</title>
+</head>
+<body>
+    <header>
+        <div class="row nav">
+            <div class="c-10 ofs-1 row" id="navbar">
+                <div class="c-2 elem"><div id="logo"></div></div>
+                <div class="c-2 elem">accueil</div>
+                <div class="c-2 elem">à propos</div>
+                <div class="c-2 elem">blog</div>
+                <div class="c-2 elem">shop</div>
+                <div class="c-2 elem"><img src="./assets/img/search-solid.svg"></div>
+            </div>
+        </div>
+    </header>
+    <section id="art-content" class="row">
+        <div class="c-5 ofs-1" id="art-txt">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia alias magni dolore facilis quam aut, eaque labore autem repudiandae corporis, eius ipsa at, culpa pariatur libero facere sunt ducimus in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quaerat corrupti fuga eaque ea, sed suscipit quod obcaecati quo error iure! Fugiat, dignissimos expedita beatae nobis impedit obcaecati? Magnam, dolorum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, dicta corporis id deserunt, suscipit eos aut consequuntur ducimus non reiciendis minima ipsum quasi mollitia consectetur dolores accusantium, ab porro sunt?</p>
+        </div>
+        <div class="c-4 ofs-1" id="art-img-content">
+            <!-- Cette partie est fonctionnelle mais ça rends vraiment moche sur le site -->
+            <!-- (sinon "excelent" design 😂 ) -->
+            <!-- <div id="art-img-txt">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, eveniet? Architecto debitis corporis fuga deserunt et. Voluptas recusandae enim omnis beatae! Eveniet dolore nam quae!</p>
+            </div> -->
+            <div id="art-img"></div>
+        </div>
+    </section>
+    <section id="gallery" class="row">
+        <div class="c-3 ofs-1">
+            <div class="gal-img" id="img-g-1"></div>
+        </div>
+        <div class="c-4">
+            <div class="gal-img" id="img-g-2"></div>
+        </div>
+        <div class="c-3">
+            <div class="gal-img" id="img-g-3"></div>
+        </div>
+    </section>
+    <footer class="row">
+        <div class="c-4">
+            <ul>
+                <li><a href="#">CGU</a></li>
+                <li><a href="#">CGV</a></li>
+                <li><a href="#">Mentions Légales</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="c-4">
+            <ul>
+                <li><a href="#">Voyages</a></li>
+                <li><a href="#">Loisirs</a></li>
+                <li><a href="#">Culture</a></li>
+                <li><a href="#">Plan du site</a></li>
+            </ul>
+        </div>
+        <div class="c-4">
+            <ul>
+                <li>Blog</li>
+                <li><a href="#">Article 1</a></li>
+                <li><a href="#">Article 2</a></li>
+                <li><a href="#">Article 3</a></li>
+                <li><a href="#">Article 4</a></li>
+            </ul>
+        </div>
+        <div class="col-12" id="dev">
+            <a href="https://sarquentin.fr">Créé avec ❤, par Quentin Sar</a>
+        </div>
+    </footer>
+</body>
+</html>
